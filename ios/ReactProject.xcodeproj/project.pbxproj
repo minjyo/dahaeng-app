@@ -19,6 +19,7 @@
 		5943A18DFD5472C7398494CF /* libPods-ReactProject-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F32AC32A6CDAF1EF13AB7B2C /* libPods-ReactProject-tvOSTests.a */; };
 		755FBA34D3648392801EF67D /* libPods-ReactProject-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6DEDF23EE5AB79C9932A43 /* libPods-ReactProject-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E8B4B3C02568ED65007230F8 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B4B3BF2568ED64007230F8 /* SplashScreen.storyboard */; };
 		EFB7944B94A41B937EFA83C1 /* libPods-ReactProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577C8CEAF8E1174C4E434942 /* libPods-ReactProject.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,9 @@
 		833FB05ACEE8C2844880AB9B /* Pods-ReactProject-ReactProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject-ReactProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactProject-ReactProjectTests/Pods-ReactProject-ReactProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1387C19CC0980A14C7929BE /* Pods-ReactProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject.release.xcconfig"; path = "Target Support Files/Pods-ReactProject/Pods-ReactProject.release.xcconfig"; sourceTree = "<group>"; };
 		C64BF3DB62FBCBE46C5411C3 /* Pods-ReactProject-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactProject-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactProject-tvOS/Pods-ReactProject-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E8116726256832EE00EFA134 /* libreact-native-webview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B4B3BF2568ED64007230F8 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		E8E0052D2568319600A1F3EA /* libreact-native-webview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-webview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F32AC32A6CDAF1EF13AB7B2C /* libPods-ReactProject-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactProject-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +136,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				E8B4B3BF2568ED64007230F8 /* SplashScreen.storyboard */,
 			);
 			name = ReactProject;
 			sourceTree = "<group>";
@@ -139,6 +144,8 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8116726256832EE00EFA134 /* libreact-native-webview.a */,
+				E8E0052D2568319600A1F3EA /* libreact-native-webview.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				577C8CEAF8E1174C4E434942 /* libPods-ReactProject.a */,
@@ -294,7 +301,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 8Z97DFFSB8;
+						DevelopmentTeam = T6G254LL6W;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
@@ -343,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				E8B4B3C02568ED65007230F8 /* SplashScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,7 +670,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Z97DFFSB8;
+				DEVELOPMENT_TEAM = T6G254LL6W;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -671,7 +679,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.minjyo.ReactProject;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.kjjoo.ReactProject;
 				PRODUCT_NAME = "다행";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -687,7 +695,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Z97DFFSB8;
+				DEVELOPMENT_TEAM = T6G254LL6W;
 				INFOPLIST_FILE = ReactProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -695,7 +703,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.minjyo.ReactProject;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.kjjoo.ReactProject;
 				PRODUCT_NAME = "다행";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

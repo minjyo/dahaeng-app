@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -25,9 +25,17 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import {WebView} from 'react-native-webview';
+import SplashScreen from 'react-native-splash-screen';
 //const App: () => React$Node = () => {
 
 const App = () => {
+  const WelcomePage = () => {
+    useEffect(() => {
+      SplashScreen.hide();
+    }, []);
+  };
+  WelcomePage();
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
